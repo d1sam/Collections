@@ -35,7 +35,7 @@ public class Main {
         hashMapPerson.put(person2, "Kyiv");//добавляем другой объект класса Person в качестве ключа, который по полям идентичен первому person1
 
         hashSetPerson.add(person1);//добавляем в множество первый объект класса Person
-        hashSetPerson.add(person2);//добавляем в множество второй объект класса Car, который по поля идентичен первому person1
+        hashSetPerson.add(person2);//добавляем в множество второй объект класса Person, который по поля идентичен первому person1
 
         System.out.println("hashMap with people = " + hashMapPerson);
         System.out.println("hashSet with people = " + hashSetPerson);
